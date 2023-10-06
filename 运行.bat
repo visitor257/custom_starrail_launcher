@@ -1,0 +1,1 @@
+python custom_starrail_launcher_v1.0.py
