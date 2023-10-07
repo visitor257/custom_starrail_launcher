@@ -20,4 +20,9 @@
 作者的bilibili主页 Author's bilibili channel:<br>
 https://space.bilibili.com/429610197
 
+Github:<br>
+https://github.com/visitor257/custom_starrail_launcher
+
+百度网盘 Baidu drive:<br>
+https://pan.baidu.com/s/1kT_4lgblpfB5sL8RtWjWkA?pwd=5n7p 提取码: 5n7p
 
