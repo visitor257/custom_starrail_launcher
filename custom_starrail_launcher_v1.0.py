@@ -1295,14 +1295,14 @@ class mainwin(QMainWindow,Ui_MainWindow):
 
     def scfile_show(self,scfile_exist):
         if scfile_exist:
-            startfile(f"{self.config_content_dict['game_downloaded_path']}/ScreenShot")
+            startfile(f"{self.config_content_dict['game_downloaded_path']}/StarRail_Data/ScreenShots")
 
     def check_scfile(self,game_path):
         result=False
         if game_path!="":
-            if path.exists(f'{self.config_content_dict["game_downloaded_path"]}/ScreenShot'):
-                if listdir(f'{self.config_content_dict["game_downloaded_path"]}/ScreenShot'):
-                    for i in listdir(f'{self.config_content_dict["game_downloaded_path"]}/ScreenShot'):
+            if path.exists(f'{self.config_content_dict["game_downloaded_path"]}/StarRail_Data/ScreenShots'):
+                if listdir(f'{self.config_content_dict["game_downloaded_path"]}/StarRail_Data/ScreenShots'):
+                    for i in listdir(f'{self.config_content_dict["game_downloaded_path"]}/StarRail_Data/ScreenShots'):
                         if i.split(".")[-1]=="png":
                             result=True
                             break
